@@ -4,7 +4,7 @@ import '../styles/home.css';
 
 let title = 'PLBB charts';
 let heading = 'Park Lane Charts'
-const navurl = Astro.canonicalURL + '#nav'
+const navurl = new URL(Astro.request.url + '#nav');
 ---
 <html lang="en">
 <head>
