@@ -59,6 +59,12 @@ input[type="search"] {
 	font-size: inherit;
 }
 
+@media (max-width: 768px) {
+	input[type="search"] {
+		font-size: 16px;
+	}
+}
+
 input[type="search"]:focus {
 	outline: none;
 	border: 2px solid pink;
