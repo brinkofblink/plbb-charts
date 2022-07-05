@@ -490,11 +490,6 @@
     "categories": ["female-vocal", "funky"]
   },
   {
-    "number": 267,
-    "title": "People Will Say We’re In Love",
-    "categories": ["female-vocal", "listen"]
-  },
-  {
     "number": 268,
     "title": "Taking A Chance On Love",
     "categories": ["female-vocal", "swing"]
@@ -587,6 +582,11 @@
   {
     "number": 101,
     "title": "Sing, Sing, Sing",
+    "categories": ["swing"]
+  },
+  {
+    "number": 102,
+    "title": "Ain’t She Sweet",
     "categories": ["swing"]
   },
   {
@@ -830,11 +830,6 @@
     "categories": ["funky"]
   },
   {
-    "number": 73,
-    "title": "Low Rider",
-    "categories": ["funky"]
-  },
-  {
     "number": 214,
     "title": "Critical Mass",
     "categories": ["funky"]
@@ -952,11 +947,6 @@
   {
     "number": 65,
     "title": "Pick Up The Pieces",
-    "categories": ["listen"]
-  },
-  {
-    "number": 102,
-    "title": "Teddy The Toad",
     "categories": ["listen"]
   },
   {
