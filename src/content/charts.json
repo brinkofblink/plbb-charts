@@ -76,7 +76,7 @@
   },
   {
     "number": 152,
-    "title": "Mini The Moocher",
+    "title": "Minnie The Moocher",
     "categories": ["male-vocal"]
   },
   {
@@ -121,6 +121,11 @@
   },
   {
     "number": 204,
+    "title": "Crazy Little Thing Called Love",
+    "categories": ["male-vocal"]
+  },
+  {
+    "number": 208,
     "title": "Wonderwall",
     "categories": ["male-vocal"]
   },
@@ -172,6 +177,11 @@
   {
     "number": 266,
     "title": "Kissing A Fool",
+    "categories": ["male-vocal"]
+  },
+  {
+    "number": 267,
+    "title": "If My Friends Could See Me Now",
     "categories": ["male-vocal"]
   },
   {
@@ -265,8 +275,18 @@
     "categories": ["female-vocal"]
   },
   {
+    "number": 103,
+    "title": "All That Jazz",
+    "categories": ["female-vocal"]
+  },
+  {
+    "number": 107,
+    "title": "Jump (for my love)",
+    "categories": ["female-vocal"]
+  },
+  {
     "number": 108,
-    "title": "Black Coffee",
+    "title": "Quiet Night of Quiet Stars (Corcovado)",
     "categories": ["female-vocal"]
   },
   {
@@ -376,7 +396,7 @@
   },
   {
     "number": 176,
-    "title": "Mas Que Nada",
+    "title": "Conga",
     "categories": ["female-vocal", "latin"]
   },
   {
@@ -602,6 +622,11 @@
   {
     "number": 151,
     "title": "Swingin’ The Blues",
+    "categories": ["swing"]
+  },
+  {
+    "number": 161,
+    "title": "Jump Jive Medley",
     "categories": ["swing"]
   },
   {
@@ -1008,6 +1033,11 @@
     "number": 144,
     "title": "Michael Brecker Waltz",
     "categories": ["listen", "waltz"]
+  },
+  {
+    "number": 159,
+    "title": "Round Midnight",
+    "categories": ["listen"]
   },
   {
     "number": 168,
