@@ -52,9 +52,8 @@ const uniq = charts
 
     return result;
   }, {});
-const duplicates = Object.keys(uniq).filter((a) => uniq[a] > 1);
 
-console.log(duplicates)
+  const duplicates = Object.keys(uniq).filter((a) => uniq[a] > 1);
 
 const isNumber = (value) => {
   const parsed = parseInt(value)
