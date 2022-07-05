@@ -115,11 +115,6 @@
     "categories": ["male-vocal"]
   },
   {
-    "number": 176,
-    "title": "All I Do Is Dream Of You",
-    "categories": ["male-vocal"]
-  },
-  {
     "number": 204,
     "title": "Crazy Little Thing Called Love",
     "categories": ["male-vocal"]
@@ -201,7 +196,7 @@
   },
   {
     "number": 12,
-    "title": "It Must Have Been Moonglow",
+    "title": "Hallelujah, I love him so",
     "categories": ["female-vocal"]
   },
   {
@@ -576,7 +571,12 @@
   },
   {
     "number": 56,
-    "title": "Jump, Jive & Wail + 057) The Woodchopper’s Ball",
+    "title": "Jump, Jive & Wail",
+    "categories": ["swing"]
+  },
+  {
+    "number": 57,
+    "title": "The Woodchopper’s Ball",
     "categories": ["swing"]
   },
   {
@@ -626,7 +626,7 @@
   },
   {
     "number": 161,
-    "title": "Jump Jive Medley",
+    "title": "Jump Jive Medley (Choo Choo Chickens)",
     "categories": ["swing"]
   },
   {
@@ -962,11 +962,6 @@
   {
     "number": 102,
     "title": "Teddy The Toad",
-    "categories": ["listen"]
-  },
-  {
-    "number": 103,
-    "title": "Angel Eyes",
     "categories": ["listen"]
   },
   {
