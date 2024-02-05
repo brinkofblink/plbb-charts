@@ -1,5 +1,5 @@
 import Fuse from 'fuse.js'
-import AllCharts from '../content/charts.json'
+import AllCharts from '../json/charts.json'
 
 const now = new Date();
 const month = now.getMonth()
