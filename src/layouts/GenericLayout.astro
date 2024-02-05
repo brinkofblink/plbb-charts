@@ -1,0 +1,55 @@
+---
+import '../styles/global.css';
+import '../styles/home.css';
+
+let title = 'Download Setlist';
+let heading = 'Park Lane Charts'
+---
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{title}</title>
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+	<style>
+		header {
+			display: flex;
+			flex-direction: column;
+			gap: 1em;
+			max-width: min(100%, 68ch);
+			margin: 0 auto;
+		}
+		article {
+			display: flex;
+			flex-direction: column;
+			margin: 0 auto;
+			padding-top: 2em;
+			line-height: 1.5;
+			gap: 1em;
+		}
+		.banner {
+			text-align: center;
+			font-size: 1.2rem;
+			background: var(--color-light);
+			padding: 1em 1.5em;
+			padding-left: 0.75em;
+			border-radius: 4px;
+		}
+
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<div>
+				<img src="/logo.png" width="256" />
+				<h1>{heading}</h1>
+			</div>
+		</header>
+
+		<article>
+			<slot/>
+	</main>
+</body>
+</html>
