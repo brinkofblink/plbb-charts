@@ -1,16 +1,22 @@
 ---
-import Charts from '../json/charts.json'
-const order = Astro.props.order || "title"
-const category = Astro.props.category || null
-const title = Astro.props.title || null
+import Charts from '../json/charts.json';
+const order = Astro.props.order || 'title';
+const category = Astro.props.category || null;
+const title = Astro.props.title || null;
 const now = new Date();
-const month = now.getMonth()
-const tisTheSeason = now.getMonth() > 9 // (January gives 0)
-let filteredCharts = tisTheSeason ? Charts : Charts.filter(c => c.categories.includes("christmas") === false)
+const month = now.getMonth();
+const tisTheSeason = now.getMonth() > 9; // (January gives 0)
+let filteredCharts = tisTheSeason
+  ? Charts
+  : Charts.filter((c) => c.categories.includes('christmas') === false);
 if (category) {
-  filteredCharts = filteredCharts.filter(c => c.categories.includes(category))
+  filteredCharts = filteredCharts.filter((c) =>
+    c.categories.includes(category),
+  );
 }
-const sortedCharts = filteredCharts.sort((a, b) => a[order] < b[order] ? -1 : 1)
+const sortedCharts = filteredCharts.sort((a, b) =>
+  a[order] < b[order] ? -1 : 1,
+);
 const padFromNumber = (n) => {
   let pad = '';
   const chartNumber = parseInt(n);
@@ -23,28 +29,41 @@ const padFromNumber = (n) => {
   } else if (chartNumber > 0) {
     pad = 'blue';
   }
-  return pad
-}
-sortedCharts.forEach(chart => {
-  chart.pad = padFromNumber(chart.number)
-})
+  return pad;
+};
+sortedCharts.forEach((chart) => {
+  chart.pad = padFromNumber(chart.number);
+});
 const randomIndex = Math.floor(Math.random() * sortedCharts.length);
-const randomChart = 'eg. ' + sortedCharts[randomIndex].title
+const randomChart = 'eg. ' + sortedCharts[randomIndex].title;
 ---
+
 <div class="search">
   <div class="search-inner">
     <label for="search-box">Search:</label>
-    <input id="search-box" name="search-box" type="search" placeholder={randomChart} />
+    <input
+      id="search-box"
+      name="search-box"
+      type="search"
+      placeholder={randomChart}
+    />
     <div class="found"></div>
   </div>
 </div>
 <div class="list">
   {title ? <h2>{title}</h2> : ''}
   <ul>
-  {sortedCharts.map((data) => <li data-chart-number={data.number} data-pad={data.pad}><div class="chart-number">{data.number}</div><div class="chart-title">{data.title}</div></li>)}
+    {
+      sortedCharts.map((data) => (
+        <li data-chart-number={data.number} data-pad={data.pad}>
+          <>
+            <div class="chart-number">{data.number}</div>
+            <div class="chart-title">{data.title}</div>
+          </>
+        </li>
+      ))
+    }
   </ul>
 </div>
 
-<script src="../scripts/search-box.js">
-
-</script>
+<script src="../scripts/search-box.js"></script>
