@@ -9,7 +9,9 @@ const charts = tisTheSeason ? AllCharts : AllCharts.filter(c => c.categories.inc
 const padFromNumber = (n) => {
   let pad = ''
   const chartNumber = parseInt(n)
-  if (chartNumber > 200) {
+  if (chartNumber > 300) {
+    pad = 'green'
+  } else if (chartNumber > 200) {
     pad = 'black'
   } else if (chartNumber > 100) {
     pad = 'red'

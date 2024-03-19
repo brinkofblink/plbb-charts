@@ -102,6 +102,9 @@ label {
 [data-pad="black"] {
 	border-left: .75ex solid black;
 }
+[data-pad="green"] {
+	border-left: .75ex solid #38A65B;
+}
 
 .found > div {
 	display: flex;

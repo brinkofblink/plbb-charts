@@ -1785,14 +1785,6 @@
   },
   {
     "number": 301,
-    "title": "Spain",
-    "pdf-title": "",
-    "categories": [
-      "latin"
-    ]
-  },
-  {
-    "number": 302,
     "title": "Dat Dere",
     "pdf-title": "",
     "categories": [
@@ -1800,7 +1792,7 @@
     ]
   },
   {
-    "number": 303,
+    "number": 302,
     "title": "Donut King",
     "pdf-title": "",
     "categories": [
@@ -1808,7 +1800,7 @@
     ]
   },
   {
-    "number": 304,
+    "number": 303,
     "title": "A Fifth of Beethoven",
     "pdf-title": "",
     "categories": [
@@ -1816,13 +1808,13 @@
     ]
   },
   {
-    "number": 305,
+    "number": 304,
     "title": "Africa",
     "pdf-title": "",
     "categories": []
   },
   {
-    "number": 306,
+    "number": 305,
     "title": "The bare necessities",
     "pdf-title": "",
     "categories": [
@@ -1830,11 +1822,60 @@
     ]
   },
   {
-    "number": 307,
+    "number": 306,
     "title": "Life's Incredible Again",
     "pdf-title": "",
     "categories": [
       "listen"
+    ]
+  },
+  {
+    "number": 307,
+    "title": "Spain",
+    "pdf-title": "",
+    "categories": [
+      "latin"
+    ]
+  },
+  {
+    "number": 308,
+    "title": "Brass Machine",
+    "pdf-title": "",
+    "categories": [
+      "listen"
+    ]
+  },
+  {
+    "number": 309,
+    "title": "Someone to Watch Over Me",
+    "pdf-title": "",
+    "categories": [
+      "female-vocal"
+    ]
+  },
+  {
+    "number": 310,
+    "title": "Take Five",
+    "pdf-title": "",
+    "categories": [
+      "swing"
+    ]
+  },
+  {
+    "number": 311,
+    "title": "Cruisin' for a Bluesin'",
+    "pdf-title": "",
+    "categories": [
+      "swing"
+    ]
+  },
+  {
+    "number": 312,
+    "title": "Alright, Okay, You Win",
+    "pdf-title": "",
+    "categories": [
+      "swing",
+      "female-vocal"
     ]
   },
   {
