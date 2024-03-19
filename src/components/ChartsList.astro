@@ -12,14 +12,16 @@ if (category) {
 }
 const sortedCharts = filteredCharts.sort((a, b) => a[order] < b[order] ? -1 : 1)
 const padFromNumber = (n) => {
-  let pad = ''
-  const chartNumber = parseInt(n)
-  if (chartNumber > 200) {
-    pad = 'black'
+  let pad = '';
+  const chartNumber = parseInt(n);
+  if (chartNumber > 300) {
+    pad = 'green';
+  } else if (chartNumber > 200) {
+    pad = 'black';
   } else if (chartNumber > 100) {
-    pad = 'red'
+    pad = 'red';
   } else if (chartNumber > 0) {
-    pad = 'blue'
+    pad = 'blue';
   }
   return pad
 }

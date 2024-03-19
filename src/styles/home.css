@@ -94,16 +94,16 @@ label {
 }
 
 [data-pad="blue"] {
-	border-left: .75ex solid #214df7;
+	border-left: 1ex solid #214df7;
 }
 [data-pad="red"] {
-	border-left: .75ex solid #e81c1c;
+	border-left: 1ex solid #e81c1c;
 }
 [data-pad="black"] {
-	border-left: .75ex solid black;
+	border-left: 1ex solid black;
 }
 [data-pad="green"] {
-	border-left: .75ex solid #38A65B;
+	border-left: 1ex solid #38A65B;
 }
 
 .found > div {
