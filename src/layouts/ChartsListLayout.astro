@@ -3,78 +3,82 @@ import '../styles/global.css';
 import '../styles/home.css';
 
 let title = 'PLBB charts';
-let heading = 'Park Lane Charts'
+let heading = 'Park Lane Charts';
 const navurl = new URL(Astro.request.url + '#nav');
 ---
+
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>{title}</title>
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <script src="/src/scripts/snow-fall.js"></script>
+    <style>
+      header {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        max-width: min(100%, 68ch);
+        margin: 0 auto;
+      }
+      article {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding-top: 2em;
+        line-height: 1.5;
+        gap: 1em;
+      }
+      .banner {
+        text-align: center;
+        font-size: 1.2rem;
+        background: var(--color-light);
+        padding: 1em 1.5em;
+        padding-left: 0.75em;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <img src="/logo.png" width="256" />
+          <h1>{heading}</h1>
+        </div>
+      </header>
 
-	<style>
-		header {
-			display: flex;
-			flex-direction: column;
-			gap: 1em;
-			max-width: min(100%, 68ch);
-			margin: 0 auto;
-		}
-		article {
-			display: flex;
-			flex-direction: column;
-			margin: 0 auto;
-			padding-top: 2em;
-			line-height: 1.5;
-			gap: 1em;
-		}
-		.banner {
-			text-align: center;
-			font-size: 1.2rem;
-			background: var(--color-light);
-			padding: 1em 1.5em;
-			padding-left: 0.75em;
-			border-radius: 4px;
-		}
-
-	</style>
-</head>
-<body>
-	<main>
-		<header>
-			<div>
-				<img src="/logo.png" width="256" />
-				<h1>{heading}</h1>
-			</div>
-		</header>
-
-		<article>
-			<div class="banner">
-				<p>👇 Scroll down for the charts, use the search box, or view by <a href='/#nav'>genres</a></p>
-			</div>
-			<div class="chart-list">
-        <slot />
-			</div>
-			<nav class="nav" id="nav">
-				<ul>
-					<li><a href="/">Number order</a></li>
-					<li><a href="/az">A-Z</a></li>
-					<li><a href="/female-vox">Female vocals</a></li>
-					<li><a href="/male-vox">Male vocals</a></li>
-					<li><a href="/duets">Duets</a></li>
-					<li><a href="/swing">Swing</a></li>
-					<li><a href="/latin">Latin</a></li>
-					<li><a href="/dance">Dance</a></li>
-					<li><a href="/glenn-miller">Glenn Miller</a></li>
-					<li><a href="/funky">Funky</a></li>
-					<li><a href="/listen">Listen</a></li>
-					<li><a href="/slow">Slow</a></li>
-					<li><a href="/rock">Rock</a></li>
-					<li><a href="/waltz">Waltz</a></li>
-				</ul>
-			</nav>
-		</article>
-	</main>
-</body>
+      <article>
+        <div class="banner">
+          <p>
+            👇 Scroll down for the charts, use the search box, or view by <a
+              href="/#nav">genres</a
+            >
+          </p>
+        </div>
+        <div class="chart-list">
+          <slot />
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="/">Number order</a></li>
+            <li><a href="/az">A-Z</a></li>
+            <li><a href="/female-vox">Female vocals</a></li>
+            <li><a href="/male-vox">Male vocals</a></li>
+            <li><a href="/duets">Duets</a></li>
+            <li><a href="/swing">Swing</a></li>
+            <li><a href="/latin">Latin</a></li>
+            <li><a href="/dance">Dance</a></li>
+            <li><a href="/glenn-miller">Glenn Miller</a></li>
+            <li><a href="/funky">Funky</a></li>
+            <li><a href="/listen">Listen</a></li>
+            <li><a href="/slow">Slow</a></li>
+            <li><a href="/rock">Rock</a></li>
+            <li><a href="/waltz">Waltz</a></li>
+          </ul>
+        </nav>
+      </article>
+    </main>
+  </body>
 </html>

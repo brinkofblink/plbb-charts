@@ -124,3 +124,9 @@ const doSearch = (e) => {
 }
 
 searchbox.addEventListener('input', doSearch)
+
+if (tisTheSeason) {
+  document.documentElement.style.setProperty('--bg', 'linear-gradient(0deg, #e3a97c, #a5b6ca, #c6d5e7, #c2c3d8)')
+  document.documentElement.style.setProperty('--color-light', '#a1afca')
+  document.querySelector('main').appendChild(document.createElement('snow-fall'));
+}

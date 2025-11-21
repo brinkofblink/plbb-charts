@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@astrojs/netlify": "^4.1.1",
+    "@zachleat/snow-fall": "^1.0.3",
     "fuse.js": "^6.5.3",
     "libxmljs2": "^0.33.0"
   }
