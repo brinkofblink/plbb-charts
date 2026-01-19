@@ -60,7 +60,10 @@ const randomChart = 'eg. ' + sortedCharts[randomIndex].title;
         <li data-chart-number={data.number} data-pad={data.pad}>
           <>
             <div class="chart-number">{data.number}</div>
-            <div class="chart-title">{data.title}</div>
+            <div class="chart-title">
+              <p>{data.title}
+              {data.key && <span class="chart-key">{data.key}</span>}
+            </p>
           </>
         </li>
       ))

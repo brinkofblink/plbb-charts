@@ -1383,7 +1383,8 @@
     "number": 309,
     "title": "Someone to Watch Over Me",
     "pdf-title": "",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "G"
   },
   {
     "number": 310,
@@ -1401,7 +1402,8 @@
     "number": 312,
     "title": "Alright, Okay, You Win",
     "pdf-title": "",
-    "categories": ["swing", "female-vocal"]
+    "categories": ["swing", "female-vocal"],
+    "key": "C"
   },
   {
     "number": 313,
@@ -1419,7 +1421,8 @@
     "number": 315,
     "title": "Got To Get You Into My Life",
     "pdf-title": "",
-    "categories": ["funky"]
+    "categories": ["funky"],
+    "key": "G"
   },
   {
     "number": 316,
@@ -1443,7 +1446,8 @@
     "number": 319,
     "title": "Give Me the Simple Life",
     "pdf-title": "",
-    "categories": ["swing", "female-vocal"]
+    "categories": ["swing", "female-vocal"],
+    "key": "Cm"
   },
   {
     "number": 320,
@@ -1461,13 +1465,15 @@
     "number": 322,
     "title": "Makin' Whoopee",
     "pdf-title": "",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "C"
   },
   {
     "number": 323,
     "title": "I Told Ya I Love Ya, Now Get Out!",
     "pdf-title": "",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "D"
   },
   {
     "number": 324,
@@ -1479,19 +1485,36 @@
     "number": 325,
     "title": "It Had Better Be Tonight",
     "pdf-title": "",
-    "categories": ["female-vocal", "male-vocal"]
+    "categories": ["female-vocal", "male-vocal"],
+    "key": "F♯m"
   },
   {
     "number": 326,
-    "title": "Isn't She Lovely",
+    "title": "Smells Like Teen Spirit",
     "pdf-title": "",
-    "categories": ["female-vocal"]
+    "categories": ["male-vocal"],
+    "key": "Cm"
   },
   {
     "number": 327,
-    "title": "Smells Like Teen Spirit",
+    "title": "Isn't She Lovely",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["female-vocal"],
+    "key": "F"
+  },
+  {
+    "number": 328,
+    "title": "Summer Wind",
+    "pdf-title": "",
+    "categories": ["male-vocal"],
+    "key": "C"
+  },
+  {
+    "number": 329,
+    "title": "You're Nobody Till Somebody Loves You",
+    "pdf-title": "",
+    "categories": ["male-vocal"],
+    "key": "E♭"
   },
   {
     "number": "XMAS01",
