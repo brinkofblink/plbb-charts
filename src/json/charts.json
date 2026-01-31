@@ -129,7 +129,8 @@
     "number": 22,
     "title": "Blue Skies",
     "pdf-title": "022. Blue skies INSTRUMENT CHAIR.pdf",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "Cm"
   },
   {
     "number": 23,
@@ -939,13 +940,15 @@
     "number": 204,
     "title": "Crazy Little Thing Called Love",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "C"
   },
   {
     "number": 205,
     "title": "Top Hat, White Tie & Tails",
     "pdf-title": "",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "A♭"
   },
   {
     "number": 206,
@@ -963,31 +966,36 @@
     "number": 208,
     "title": "Wonderwall",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "F♯m"
   },
   {
     "number": 209,
     "title": "Fever",
     "pdf-title": "",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "Am"
   },
   {
     "number": 210,
     "title": "Witchcraft",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "F"
   },
   {
     "number": 211,
     "title": "I Get A Kick Out Of You",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "D♭"
   },
   {
     "number": 212,
     "title": "For Once In My Life",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "B♭"
   },
   {
     "number": 213,
