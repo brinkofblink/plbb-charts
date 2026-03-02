@@ -262,7 +262,8 @@
     "number": 44,
     "title": "Cheek To Cheek",
     "pdf-title": "044. Cheek to cheek INSTRUMENT CHAIR.pdf",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "F"
   },
   {
     "number": 45,
@@ -280,7 +281,8 @@
     "number": 47,
     "title": "Have You Met Miss Jones?",
     "pdf-title": "047. Have you met Miss Jones INSTRUMENT CHAIR.pdf",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "G"
   },
   {
     "number": 48,
@@ -436,7 +438,8 @@
     "number": 73,
     "title": "Feeling Good",
     "pdf-title": "073. Feeling good INSTRUMENT CHAIR.pdf",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "Gm"
   },
   {
     "number": 74,
@@ -598,7 +601,8 @@
     "number": 123,
     "title": "The Lady Is A Tramp",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "B♭"
   },
   {
     "number": 124,
@@ -652,7 +656,8 @@
     "number": 132,
     "title": "Let’s Face The Music & Dance",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "Cm"
   },
   {
     "number": 133,
@@ -676,7 +681,8 @@
     "number": 136,
     "title": "Fly Me To The Moon",
     "pdf-title": "",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "Fm"
   },
   {
     "number": 137,
@@ -688,7 +694,8 @@
     "number": 138,
     "title": "All Of Me",
     "pdf-title": "",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "A♭"
   },
   {
     "number": 139,
@@ -766,7 +773,8 @@
     "number": 153,
     "title": "It Had To Be You",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "F"
   },
   {
     "number": 154,
@@ -832,7 +840,8 @@
     "number": 163,
     "title": "It’s Not Unusual",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "C"
   },
   {
     "number": 164,
@@ -868,7 +877,8 @@
     "number": 169,
     "title": "The Nearness Of You",
     "pdf-title": "",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "C"
   },
   {
     "number": 170,
@@ -1013,7 +1023,8 @@
     "number": 215,
     "title": "The Way You Look Tonight",
     "pdf-title": "",
-    "categories": ["female-vocal"]
+    "categories": ["female-vocal"],
+    "key": "C"
   },
   {
     "number": 216,
@@ -1031,7 +1042,8 @@
     "number": 218,
     "title": "Night & Day",
     "pdf-title": "",
-    "categories": ["male-vocal"]
+    "categories": ["male-vocal"],
+    "key": "D"
   },
   {
     "number": 219,
